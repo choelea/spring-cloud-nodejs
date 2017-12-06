@@ -1,0 +1,17 @@
+
+server:
+  port: 0
+
+spring:
+  jpa:
+    generate-ddl: true
+
+logging:
+  level:
+    com.netflix: TRACE
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+    healthcheck:
+      enabled: true
