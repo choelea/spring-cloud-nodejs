@@ -2,9 +2,9 @@
 尝试使用Spring Cloud Netflix 加 Nodejs 技术栈混合搭建微服务。 （示例并无任何业务意义，只为做演示）
 **代码：** https://github.com/choelea/spring-cloud-netflix/  **ref：** tags/micros-service-hybrid-demo
 ###  相关版本依赖
-**Spring Boot：** 1.5.4.RELEASE
-**Spring Cloud: ** Dalston.SR1
-**Nodejs：**  7.2.0  (本机是7.2.0的，没有在其他版本上做测试)
+**Spring Boot：** 1.5.9.RELEASE
+**Spring Cloud: ** Edgware.RELEASE
+**Nodejs：**  v8.9.1  (本机是v8.9.1的，没有在其他版本上做测试)
 ## 架构图 (Architecture for microservice)
 ![架构图](http://img.blog.csdn.net/20170701223331565?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvY2hvZWxlYQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
 
@@ -13,6 +13,8 @@
  - **nodejs-bookservice** nodejs开发的微服务
  - **spring-apigateway** Spring Boot + Cloud Netflix技术栈搭建的网关
  - **nodejs-web** nodejs开发的网关兼web应用
+
+> eureka-server-peer1 和 eureka-server-peer2 是用来验证eureka 集群的，可以选择启动这两个服务，不启动eureka-server服务。
 
 ## 程序运行
 按照上面的顺序依次运行。  Spring Boot的程序运行：`mvn spring-boot:run` ; nodejs 程序运行：`npm start` 
