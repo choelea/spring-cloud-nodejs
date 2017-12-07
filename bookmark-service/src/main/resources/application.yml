@@ -1,6 +1,6 @@
 
 server:
-  port: 0
+  port: 9994
 
 spring:
   jpa:
@@ -13,5 +13,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
-    healthcheck:
-      enabled: true

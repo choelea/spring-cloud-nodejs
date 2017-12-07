@@ -1,7 +1,5 @@
 eureka:
   overrides: 1
-  heartbeatInterval: 999
-  registryFetchInterval: 999
   registerWithEureka: true
   fetchRegistry: false
   host: localhost

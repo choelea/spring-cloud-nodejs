@@ -3,12 +3,13 @@ server:
 
 
 eureka:
+#  server:
+#    enable-self-preservation: false
+#    eviction-interval-timer-in-ms: 30000
   client:
     registerWithEureka: false
     fetchRegistry: false
-#  server:
-#    waitTimeInMsWhenSyncEmpty: 0
-#    enableSelfPreservation: false
+    
     
 logging:
   level:

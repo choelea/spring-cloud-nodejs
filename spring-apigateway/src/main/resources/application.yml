@@ -24,8 +24,6 @@ zuul:
       sensitiveHeaders: 
 ### Eureka configuration ######################## 
 eureka:
-  instance:
-    hostname: localhost
   client:
     registerWithEureka: false
     fetchRegistry: true

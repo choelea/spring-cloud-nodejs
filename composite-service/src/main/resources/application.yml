@@ -1,7 +1,6 @@
 server:
   port: 8050
 
-
 eureka:
   client:
     serviceUrl:
