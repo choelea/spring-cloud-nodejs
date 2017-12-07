@@ -1,0 +1,12 @@
+server:
+  port: 8762
+#spring:
+#  profiles: peer2
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/    
+logging:
+  level:
+    com.netflix: TRACE

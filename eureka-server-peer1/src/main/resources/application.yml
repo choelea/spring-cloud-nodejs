@@ -1,0 +1,11 @@
+server:
+  port: 8761  
+eureka:
+  instance:
+    hostname: PC-20160321GFRJ
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/    
+logging:
+  level:
+    com.netflix: TRACE
