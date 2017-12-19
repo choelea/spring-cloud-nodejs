@@ -4,6 +4,7 @@ eureka:
   instance:
     hostname: PC-20160321GFRJ
   client:
+    registerWithEureka: false
     serviceUrl:
       defaultZone: http://localhost:8762/eureka/    
 logging:
