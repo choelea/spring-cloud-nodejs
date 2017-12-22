@@ -82,6 +82,6 @@ nodejs的微服务app，在eureka的client的配置中最好保持app，vipAddre
 > 经测试发现，Spring Boot / Cloud Netflix 技术栈开发的apigateway，采用Zuul Reverse Proxy 反向代理的时候，必须app 和 vipAddress设置一致。 多个instance通过instanceId来区分。
 
 ### 监控Spring Boot服务
-通过http://localhost:8088可以进入Spring Boot的服务列表；选中服务点击Details可以查看详细信息。
+通过http://localhost:8088 可以进入Spring Boot的服务列表；选中服务点击Details可以查看详细信息。
 ### 调用链路跟踪
-通过http://localhost:9411查询服务间调用情况
+通过http://localhost:9411 查询服务间调用情况
