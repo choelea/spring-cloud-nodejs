@@ -27,12 +27,13 @@ public class CompositeServiceApplication {
 
 @Component
 class FeignExample implements CommandLineRunner {
-
+	
     @Autowired
     private BookmarkClient bookmarkClient;
 
     @Override
     public void run(String... strings) throws Exception {
+    	
         this.bookmarkClient.getBookmarks("jlong").forEach((Bookmark mark) -> {
             System.out.println("----------------------"+mark);
         });

@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: Spring-Boot-Admin-Server

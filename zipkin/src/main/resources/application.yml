@@ -1,14 +1,7 @@
 
 server:
-  port: 9994
+  port: 9411
 
-spring:
-  jpa:
-    generate-ddl: true
-
-logging:
-  level:
-    com.netflix: TRACE
 eureka:
   client:
     serviceUrl:

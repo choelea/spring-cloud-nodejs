@@ -12,6 +12,9 @@ app.get('/books', function (req, res) {
 app.get('/info',function(req, res){
     res.json({name:'book service',status:'ok'});
 } );
+app.get('/health',function(req, res){
+  res.json({name:'book service',status:'ok'});
+} );
 app.listen(3001, function () {
     console.log('Book Service app listening on port 3001!')
 })
