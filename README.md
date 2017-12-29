@@ -1,12 +1,13 @@
 ##Spring Cloud Netflix / Nodejs
 尝试使用Spring Cloud Netflix 加 Nodejs 技术栈混合搭建微服务。 （示例并无任何业务意义，只为做演示）
-**代码：** https://github.com/choelea/spring-cloud-nodejs/  
+> 此库为https://github.com/choelea/spring-cloud-netflix 的演进版，在此基础上增加了全链路跟踪，服务监控及跨服务日志跟踪
+**代码：** https://github.com/choelea/spring-cloud-nodejs/
 **实现如下**
 1. 服务注册发现
 2. 服务间调用（feign)
 3. 服务路由
 4. 负载均衡 (eureka client 端)
-5. 全链路跟踪
+5. 分布式链路调用监控系统
 6. 跨服务日志跟踪
 7. 服务监控
 
